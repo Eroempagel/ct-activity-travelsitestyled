@@ -19,7 +19,7 @@ Target the body element and set some common styles for the page:
 body {
   background-color: black;
   color: white;
-  font-family: Helvetica;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 16px;
 }
 
@@ -166,7 +166,7 @@ header {
  target the element with the id of logo and float it to the left
 */
 
-#Logo {
+#logo {
   float: left;
 }
 
@@ -174,7 +174,7 @@ header {
  target the nav element and float it to the right
 */
 
-nav {
+#nav-list {
   float: right;
 }
 
@@ -198,7 +198,7 @@ nav {
 */
 
 .nav-link {
-  display: inline-block;
+  display: inline;
   padding: 5px 15px;
 }
 
@@ -225,6 +225,7 @@ table {
   border: collapse;
   width: 100%;
 }
+
 /*
  target the tr, td, and th elements
   - give a 2px black solid border to the table
