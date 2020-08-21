@@ -54,18 +54,13 @@ target the elements with a class of page-row and set the following:
  - give the element a padding of 5%
  - give the element a margin of 2% on the top and bottom
 */
+
 .page-row {
   width: 100%;
   clear: both;
   padding: 5%;
   margin: 2% 0;
-  /* color: red; */
 }
-
-/* #travel-table {
-  color: blue;
-  background-color: black;
-} */
 
 /*
 target the elements with a class of card and set the following:
