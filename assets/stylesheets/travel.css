@@ -169,7 +169,7 @@ header {
  target the nav element and float it to the right
 */
 
-#nav-list {
+nav {
   float: right;
 }
 
